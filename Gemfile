@@ -42,6 +42,6 @@ end
 group :test do
   gem 'cucumber-rails', :require => false
   gem 'rspec-rails'
-  gem 'webmock'
+  gem 'webmock', '~> 2.3.1'
 end
 
